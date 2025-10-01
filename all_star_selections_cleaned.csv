@@ -1,0 +1,267 @@
+player,player_id,team,season
+Bam Adebayo,adebaba01,East,2024
+Giannis Antetokounmpo,antetgi01,East,2024
+Paolo Banchero,banchpa01,East,2024
+Scottie Barnes,barnesc01,East,2024
+Jaylen Brown,brownja02,East,2024
+Jalen Brunson,brunsja01,East,2024
+Joel Embiid,embiijo01,East,2024
+Tyrese Haliburton,halibty01,East,2024
+Damian Lillard,lillada01,East,2024
+Tyrese Maxey,maxeyty01,East,2024
+Donovan Mitchell,mitchdo01,East,2024
+Julius Randle,randlju01,East,2024
+Jayson Tatum,tatumja01,East,2024
+Trae Young,youngtr01,East,2024
+Devin Booker,bookede01,West,2024
+Stephen Curry,curryst01,West,2024
+Anthony Davis,davisan02,West,2024
+Luka Dončić,doncilu01,West,2024
+Kevin Durant,duranke01,West,2024
+Anthony Edwards,edwaran01,West,2024
+Paul George,georgpa01,West,2024
+Shai Gilgeous-Alexander,gilgesh01,West,2024
+LeBron James,jamesle01,West,2024
+Nikola Jokić,jokicni01,West,2024
+Kawhi Leonard,leonaka01,West,2024
+Karl-Anthony Towns,townska01,West,2024
+Bam Adebayo,adebaba01,Giannis,2023
+Giannis Antetokounmpo,antetgi01,Giannis,2023
+DeMar DeRozan,derozde01,Giannis,2023
+Kevin Durant,duranke01,Giannis,2023
+Shai Gilgeous-Alexander,gilgesh01,Giannis,2023
+Jrue Holiday,holidjr01,Giannis,2023
+Damian Lillard,lillada01,Giannis,2023
+Lauri Markkanen,markkla01,Giannis,2023
+Donovan Mitchell,mitchdo01,Giannis,2023
+Ja Morant,moranja01,Giannis,2023
+Domantas Sabonis,sabondo01,Giannis,2023
+Pascal Siakam,siakapa01,Giannis,2023
+Jayson Tatum,tatumja01,Giannis,2023
+Jaylen Brown,brownja02,LeBron,2023
+Stephen Curry,curryst01,LeBron,2023
+Luka Dončić,doncilu01,LeBron,2023
+Anthony Edwards,edwaran01,LeBron,2023
+Joel Embiid,embiijo01,LeBron,2023
+De'Aaron Fox,foxde01,LeBron,2023
+Paul George,georgpa01,LeBron,2023
+Tyrese Haliburton,halibty01,LeBron,2023
+Kyrie Irving,irvinky01,LeBron,2023
+Jaren Jackson Jr.,jacksja02,LeBron,2023
+LeBron James,jamesle01,LeBron,2023
+Nikola Jokić,jokicni01,LeBron,2023
+Julius Randle,randlju01,LeBron,2023
+Zion Williamson,willizi01,LeBron,2023
+LaMelo Ball,ballla01,Team Durant,2022
+Devin Booker,bookede01,Team Durant,2022
+Kevin Durant,duranke01,Team Durant,2022
+Joel Embiid,embiijo01,Team Durant,2022
+Rudy Gobert,goberru01,Team Durant,2022
+Draymond Green,greendr01,Team Durant,2022
+Zach LaVine,lavinza01,Team Durant,2022
+Khris Middleton,middlkh01,Team Durant,2022
+Ja Morant,moranja01,Team Durant,2022
+Dejounte Murray,murrade01,Team Durant,2022
+Jayson Tatum,tatumja01,Team Durant,2022
+Karl-Anthony Towns,townska01,Team Durant,2022
+Andrew Wiggins,wiggian01,Team Durant,2022
+Trae Young,youngtr01,Team Durant,2022
+Jarrett Allen,allenja01,Team LeBron,2022
+Giannis Antetokounmpo,antetgi01,Team LeBron,2022
+Jimmy Butler,butleji01,Team LeBron,2022
+Stephen Curry,curryst01,Team LeBron,2022
+DeMar DeRozan,derozde01,Team LeBron,2022
+Luka Dončić,doncilu01,Team LeBron,2022
+Darius Garland,garlada01,Team LeBron,2022
+James Harden,hardeja01,Team LeBron,2022
+LeBron James,jamesle01,Team LeBron,2022
+Nikola Jokić,jokicni01,Team LeBron,2022
+Donovan Mitchell,mitchdo01,Team LeBron,2022
+Chris Paul,paulch01,Team LeBron,2022
+Fred VanVleet,vanvlfr01,Team LeBron,2022
+Bradley Beal,bealbr01,Team Durant,2021
+Devin Booker,bookede01,Team Durant,2021
+Mike Conley,conlemi01,Team Durant,2021
+Anthony Davis,davisan02,Team Durant,2021
+Kevin Durant,duranke01,Team Durant,2021
+Joel Embiid,embiijo01,Team Durant,2021
+James Harden,hardeja01,Team Durant,2021
+Kyrie Irving,irvinky01,Team Durant,2021
+Zach LaVine,lavinza01,Team Durant,2021
+Kawhi Leonard,leonaka01,Team Durant,2021
+Donovan Mitchell,mitchdo01,Team Durant,2021
+Julius Randle,randlju01,Team Durant,2021
+Jayson Tatum,tatumja01,Team Durant,2021
+Nikola Vučević,vucevni01,Team Durant,2021
+Zion Williamson,willizi01,Team Durant,2021
+Giannis Antetokounmpo,antetgi01,Team LeBron,2021
+Jaylen Brown,brownja02,Team LeBron,2021
+Stephen Curry,curryst01,Team LeBron,2021
+Luka Dončić,doncilu01,Team LeBron,2021
+Paul George,georgpa01,Team LeBron,2021
+Rudy Gobert,goberru01,Team LeBron,2021
+LeBron James,jamesle01,Team LeBron,2021
+Nikola Jokić,jokicni01,Team LeBron,2021
+Damian Lillard,lillada01,Team LeBron,2021
+Chris Paul,paulch01,Team LeBron,2021
+Domantas Sabonis,sabondo01,Team LeBron,2021
+Ben Simmons,simmobe01,Team LeBron,2021
+Bam Adebayo,adebaba01,Team Giannis,2020
+Giannis Antetokounmpo,antetgi01,Team Giannis,2020
+Jimmy Butler,butleji01,Team Giannis,2020
+Joel Embiid,embiijo01,Team Giannis,2020
+Rudy Gobert,goberru01,Team Giannis,2020
+Brandon Ingram,ingrabr01,Team Giannis,2020
+Kyle Lowry,lowryky01,Team Giannis,2020
+Khris Middleton,middlkh01,Team Giannis,2020
+Donovan Mitchell,mitchdo01,Team Giannis,2020
+Pascal Siakam,siakapa01,Team Giannis,2020
+Kemba Walker,walkeke02,Team Giannis,2020
+Trae Young,youngtr01,Team Giannis,2020
+Devin Booker,bookede01,Team LeBron,2020
+Anthony Davis,davisan02,Team LeBron,2020
+Luka Dončić,doncilu01,Team LeBron,2020
+James Harden,hardeja01,Team LeBron,2020
+LeBron James,jamesle01,Team LeBron,2020
+Nikola Jokić,jokicni01,Team LeBron,2020
+Kawhi Leonard,leonaka01,Team LeBron,2020
+Damian Lillard,lillada01,Team LeBron,2020
+Chris Paul,paulch01,Team LeBron,2020
+Domantas Sabonis,sabondo01,Team LeBron,2020
+Ben Simmons,simmobe01,Team LeBron,2020
+Jayson Tatum,tatumja01,Team LeBron,2020
+Russell Westbrook,westbru01,Team LeBron,2020
+Giannis Antetokounmpo,antetgi01,Team Giannis,2019
+Stephen Curry,curryst01,Team Giannis,2019
+Joel Embiid,embiijo01,Team Giannis,2019
+Paul George,georgpa01,Team Giannis,2019
+Blake Griffin,griffbl01,Team Giannis,2019
+Nikola Jokić,jokicni01,Team Giannis,2019
+Kyle Lowry,lowryky01,Team Giannis,2019
+Khris Middleton,middlkh01,Team Giannis,2019
+Dirk Nowitzki,nowitdi01,Team Giannis,2019
+Victor Oladipo,oladivi01,Team Giannis,2019
+D'Angelo Russell,russeda01,Team Giannis,2019
+Nikola Vučević,vucevni01,Team Giannis,2019
+Kemba Walker,walkeke02,Team Giannis,2019
+Russell Westbrook,westbru01,Team Giannis,2019
+LaMarcus Aldridge,aldrila01,Team LeBron,2019
+Bradley Beal,bealbr01,Team LeBron,2019
+Anthony Davis,davisan02,Team LeBron,2019
+Kevin Durant,duranke01,Team LeBron,2019
+James Harden,hardeja01,Team LeBron,2019
+Kyrie Irving,irvinky01,Team LeBron,2019
+LeBron James,jamesle01,Team LeBron,2019
+Kawhi Leonard,leonaka01,Team LeBron,2019
+Damian Lillard,lillada01,Team LeBron,2019
+Ben Simmons,simmobe01,Team LeBron,2019
+Klay Thompson,thompkl01,Team LeBron,2019
+Karl-Anthony Towns,townska01,Team LeBron,2019
+Dwyane Wade,wadedw01,Team LeBron,2019
+LaMarcus Aldridge,aldrila01,Team LeBron,2018
+Bradley Beal,bealbr01,Team LeBron,2018
+DeMarcus Cousins,couside01,Team LeBron,2018
+Anthony Davis,davisan02,Team LeBron,2018
+Goran Dragić,dragigo01,Team LeBron,2018
+Andre Drummond,drumman01,Team LeBron,2018
+Kevin Durant,duranke01,Team LeBron,2018
+Paul George,georgpa01,Team LeBron,2018
+Kyrie Irving,irvinky01,Team LeBron,2018
+LeBron James,jamesle01,Team LeBron,2018
+Kevin Love,loveke01,Team LeBron,2018
+Victor Oladipo,oladivi01,Team LeBron,2018
+Kristaps Porziņģis,porzikr01,Team LeBron,2018
+Kemba Walker,walkeke02,Team LeBron,2018
+John Wall,walljo01,Team LeBron,2018
+Russell Westbrook,westbru01,Team LeBron,2018
+Giannis Antetokounmpo,antetgi01,Team Stephen,2018
+Jimmy Butler,butleji01,Team Stephen,2018
+Stephen Curry,curryst01,Team Stephen,2018
+DeMar DeRozan,derozde01,Team Stephen,2018
+Joel Embiid,embiijo01,Team Stephen,2018
+Draymond Green,greendr01,Team Stephen,2018
+James Harden,hardeja01,Team Stephen,2018
+Al Horford,horfoal01,Team Stephen,2018
+Damian Lillard,lillada01,Team Stephen,2018
+Kyle Lowry,lowryky01,Team Stephen,2018
+Klay Thompson,thompkl01,Team Stephen,2018
+Karl-Anthony Towns,townska01,Team Stephen,2018
+Giannis Antetokounmpo,antetgi01,East,2017
+Carmelo Anthony,anthoca01,East,2017
+Jimmy Butler,butleji01,East,2017
+DeMar DeRozan,derozde01,East,2017
+Paul George,georgpa01,East,2017
+Kyrie Irving,irvinky01,East,2017
+LeBron James,jamesle01,East,2017
+Kevin Love,loveke01,East,2017
+Kyle Lowry,lowryky01,East,2017
+Paul Millsap,millspa01,East,2017
+Isaiah Thomas,thomais02,East,2017
+Kemba Walker,walkeke02,East,2017
+John Wall,walljo01,East,2017
+DeMarcus Cousins,couside01,West,2017
+Stephen Curry,curryst01,West,2017
+Anthony Davis,davisan02,West,2017
+Kevin Durant,duranke01,West,2017
+Marc Gasol,gasolma01,West,2017
+Draymond Green,greendr01,West,2017
+James Harden,hardeja01,West,2017
+Gordon Hayward,haywago01,West,2017
+DeAndre Jordan,jordade01,West,2017
+Kawhi Leonard,leonaka01,West,2017
+Klay Thompson,thompkl01,West,2017
+Russell Westbrook,westbru01,West,2017
+Carmelo Anthony,anthoca01,East,2016
+Chris Bosh,boshch01,East,2016
+Jimmy Butler,butleji01,East,2016
+DeMar DeRozan,derozde01,East,2016
+Andre Drummond,drumman01,East,2016
+Pau Gasol,gasolpa01,East,2016
+Paul George,georgpa01,East,2016
+Al Horford,horfoal01,East,2016
+LeBron James,jamesle01,East,2016
+Kyle Lowry,lowryky01,East,2016
+Paul Millsap,millspa01,East,2016
+Isaiah Thomas,thomais02,East,2016
+Dwyane Wade,wadedw01,East,2016
+John Wall,walljo01,East,2016
+LaMarcus Aldridge,aldrila01,West,2016
+Kobe Bryant,bryanko01,West,2016
+DeMarcus Cousins,couside01,West,2016
+Stephen Curry,curryst01,West,2016
+Anthony Davis,davisan02,West,2016
+Kevin Durant,duranke01,West,2016
+Draymond Green,greendr01,West,2016
+James Harden,hardeja01,West,2016
+Kawhi Leonard,leonaka01,West,2016
+Chris Paul,paulch01,West,2016
+Klay Thompson,thompkl01,West,2016
+Russell Westbrook,westbru01,West,2016
+Carmelo Anthony,anthoca01,East,2015
+Chris Bosh,boshch01,East,2015
+Jimmy Butler,butleji01,East,2015
+Pau Gasol,gasolpa01,East,2015
+Al Horford,horfoal01,East,2015
+Kyrie Irving,irvinky01,East,2015
+LeBron James,jamesle01,East,2015
+Kyle Korver,korveky01,East,2015
+Kyle Lowry,lowryky01,East,2015
+Paul Millsap,millspa01,East,2015
+Jeff Teague,teaguje01,East,2015
+Dwyane Wade,wadedw01,East,2015
+John Wall,walljo01,East,2015
+LaMarcus Aldridge,aldrila01,West,2015
+Kobe Bryant,bryanko01,West,2015
+DeMarcus Cousins,couside01,West,2015
+Stephen Curry,curryst01,West,2015
+Anthony Davis,davisan02,West,2015
+Tim Duncan,duncati01,West,2015
+Kevin Durant,duranke01,West,2015
+Marc Gasol,gasolma01,West,2015
+Blake Griffin,griffbl01,West,2015
+James Harden,hardeja01,West,2015
+Damian Lillard,lillada01,West,2015
+Dirk Nowitzki,nowitdi01,West,2015
+Chris Paul,paulch01,West,2015
+Klay Thompson,thompkl01,West,2015
+Russell Westbrook,westbru01,West,2015
