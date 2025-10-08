@@ -1,0 +1,9 @@
+1. install requirments:
+    pip install -r requirements.txt
+
+2. run main.py with the dataset
+    python main.py --csv "Team Summaries_updated.csv" --target playoffs
+
+3. make predictions (run a new csv or a row in the original)
+    python predict.py --train-csv "Team Summaries_updated1.csv" --row-index 0
+(replace "Team Summaries_updated1.csv with another csv if you want to test a new team) 

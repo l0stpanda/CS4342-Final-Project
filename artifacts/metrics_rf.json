@@ -1,0 +1,14 @@
+{
+  "accuracy": 0.8509316770186336,
+  "precision_macro": 0.8510852713178294,
+  "recall_macro": 0.8501082251082251,
+  "f1_macro": 0.8504643962848297,
+  "roc_auc": 0.9319727891156463,
+  "best_params": {
+    "rf__max_depth": 14,
+    "rf__max_features": 0.316143697528991,
+    "rf__min_samples_leaf": 3,
+    "rf__min_samples_split": 13,
+    "rf__n_estimators": 304
+  }
+}
