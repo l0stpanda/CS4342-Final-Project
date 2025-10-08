@@ -42,11 +42,11 @@ def plot_feature_importances(importances, feature_names, outpath, top_k=20):
     plt.close()
 
 def main(args):
-    # ----- I/O setup -----
+    # I/O setup
     os.makedirs("models", exist_ok=True)
     os.makedirs("artifacts", exist_ok=True)
 
-    # ----- Load data -----
+    # load data
     df = pd.read_csv(args.csv)
 
     # Check target
@@ -66,12 +66,12 @@ def main(args):
     numeric_cols = X.select_dtypes(include=[np.number]).columns.tolist()
     X = X[numeric_cols]
 
-    # ----- Split -----
+    # split
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=args.test_size, random_state=args.random_state, stratify=y
     )
 
-    # ----- Pipeline (impute + RF) -----
+    # pipeline
     pre = ColumnTransformer(
         transformers=[("num", SimpleImputer(strategy="median"), numeric_cols)],
         remainder="drop"
@@ -86,8 +86,8 @@ def main(args):
 
     pipe = Pipeline([("pre", pre), ("rf", rf)])
 
-    # ----- Light hyperparameter search to get a solid RF -----
-    # Keeps runtime reasonable but usually improves performance vs defaults
+    # Light hyperparameter search to get a solid RF 
+    # Keeps runtime reasonable but improves performance vs defaults
     param_dist = {
         "rf__n_estimators": randint(250, 600),
         "rf__max_depth": randint(3, 20),
@@ -110,14 +110,13 @@ def main(args):
     search.fit(X_train, y_train)
     best_model = search.best_estimator_
 
-    # ----- Evaluate -----
+    # Evaluate 
     preds = best_model.predict(X_test)
     acc = accuracy_score(y_test, preds)
     prec, rec, f1, _ = precision_recall_fscore_support(
         y_test, preds, average="macro", zero_division=0
     )
 
-    # ROC-AUC if probabilities available
     try:
         proba = best_model.predict_proba(X_test)[:, 1]
         roc_auc = roc_auc_score(y_test, proba)
@@ -147,7 +146,7 @@ def main(args):
     print("=== Metrics ===")
     print(json.dumps(metrics, indent=2))
 
-    # ----- Feature importances -----
+    # Feature importances
     # Get the RF inside the pipeline and save importances + plot
     rf_fitted = best_model.named_steps["rf"]
     imputer = best_model.named_steps["pre"].named_transformers_["num"]
@@ -159,7 +158,7 @@ def main(args):
     fi_df.to_csv("artifacts/rf_feature_importances.csv", index=False)
     plot_feature_importances(importances, feature_names_after, "artifacts/rf_feature_importances.png")
 
-    # ----- Save model -----
+    # Save model
     os.makedirs("models", exist_ok=True)
     model_path = os.path.join("models", "random_forest.joblib")
     joblib.dump(best_model, model_path)

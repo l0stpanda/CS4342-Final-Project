@@ -11,7 +11,6 @@ def main(args):
     if args.input_csv:
         df = pd.read_csv(args.input_csv)
         # Try to drop non-numeric columns the model didn't train on
-        # (the pipeline will select numeric columns internally, but keeping schema close helps)
         # NOTE: Do NOT include the target column.
         if args.target and args.target in df.columns:
             df = df.drop(columns=[args.target])
@@ -24,7 +23,7 @@ def main(args):
         print(out[["playoff_prob", "prediction"]])
         return
 
-    # Option B: grab a single row from your training CSV by index (handy for quick tests)
+    # Option B: grab a single row from your training CSV by index
     if args.train_csv and args.row_index is not None:
         train = pd.read_csv(args.train_csv)
         # Drop the target if present; the training pipeline learned with numeric-only features
